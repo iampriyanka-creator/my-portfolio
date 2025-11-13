@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid-demo.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Gride Layout Demonstration</h1>
+    </header>
+
+    <main class="grid-container">
+        <div class="grid-item header-area">Header (Grid Area)</div>
+        <nav class="grid-item nav-area">Navigation</nav>
+        <section class="grid-item main-area">
+            <h2>Main Conent Area</h2>
+            <p>This area takes up the largest fraction of space (4fr) and reflows the nav on mobile</p>
+        </section>
+        <aside class="grid-item sidebar-area"> Slider (1fr)</aside>
+        <footer class="grid-item footer-area">Footer (Full Width) </footer>
+    </main>
+    <p class="resize-note">Try resizing your horizontally to the layout change from desktop (grid) to mobile (stacked)</p>
+</body>
+</html>
